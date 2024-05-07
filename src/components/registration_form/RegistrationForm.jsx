@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { register } from "../../redux/auth/operations";
-import { useId } from "react";
+// import { useId } from "react";
+import { useId } from "react-uid";
 import { Formik, Form, Field } from "formik";
 import css from "./RegistrationForm.module.css";
 
