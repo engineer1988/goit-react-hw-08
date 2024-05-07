@@ -5,5 +5,7 @@
 .label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+}
+.field {
+  margin-bottom: 25px;
 }

@@ -32,14 +32,24 @@ export const LoginForm = () => {
         <label htmlFor={emailFieldId} className={css.label}>
           Email
         </label>
-        <Field type="email" name="email" id={emailFieldId} />
-
+        <Field
+          type="email"
+          name="email"
+          id={emailFieldId}
+          className={css.field}
+        />
         <label htmlFor={passwordFieldId} className={css.label}>
           Password
         </label>
-        <Field type="password" name="password" id={passwordFieldId} />
-
-        <button type="submit">Log In</button>
+        <Field
+          type="password"
+          name="password"
+          id={passwordFieldId}
+          className={css.field}
+        />
+        <div>
+          <button type="submit">Log In</button>
+        </div>{" "}
       </Form>
     </Formik>
   );

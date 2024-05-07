@@ -50,21 +50,5 @@ const contactsSlice = createSlice({
         state.error = action.payload;
       }),
 });
-// export const selectContacts = (state) => {
-//   return state.contacts.items;
-// };
-
-// export const selectFilteredContacts = createSelector(
-//   [selectContacts, selectNameFilter],
-//   (dataContacts, dataNameFilter) => {
-//     return dataContacts.filter((contact) =>
-//       contact.name.toLowerCase().includes(dataNameFilter.toLowerCase())
-//     );
-//   }
-// );
-
-// export const selectLoading = (state) => state.contacts.loading;
-
-// export const selectError = (state) => state.contacts.error;
 
 export const contactsReducer = contactsSlice.reducer;

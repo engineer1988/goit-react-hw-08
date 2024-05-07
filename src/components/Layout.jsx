@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-// import { Outlet } from 'react-router-dom';
 import { AppBar } from "./app__bar/AppBar";
 import PropTypes from "prop-types";
 
